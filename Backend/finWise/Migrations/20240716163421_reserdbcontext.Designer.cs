@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using finWise.Model;
 
@@ -11,9 +12,11 @@ using finWise.Model;
 namespace finWise.Migrations
 {
     [DbContext(typeof(finWiseDbContext))]
-    partial class finWiseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240716163421_reserdbcontext")]
+    partial class reserdbcontext
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

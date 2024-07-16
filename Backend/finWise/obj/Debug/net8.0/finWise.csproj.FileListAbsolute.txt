@@ -294,3 +294,4 @@ E:\MyApps\finWise\Backend\finWise\obj\Debug\net8.0\refint\finWise.dll
 E:\MyApps\finWise\Backend\finWise\obj\Debug\net8.0\finWise.pdb
 E:\MyApps\finWise\Backend\finWise\obj\Debug\net8.0\finWise.genruntimeconfig.cache
 E:\MyApps\finWise\Backend\finWise\obj\Debug\net8.0\ref\finWise.dll
+E:\MyApps\finWise\Backend\finWise\obj\Debug\net8.0\finWise.sourcelink.json

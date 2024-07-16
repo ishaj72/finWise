@@ -30,12 +30,19 @@ namespace finWise.Controllers
                 return BadRequest(ModelState);
             }
 
-            var registeredUser = await _userInterface.RegisterAsync(user);
-            if (registeredUser != null)
+            try
             {
-                return Ok("User registered successfully. Thank you!");
+                var registeredUser = await _userInterface.RegisterAsync(user);
+                if (registeredUser != null)
+                {
+                    return Ok("User registered successfully. Thank you!");
+                }
+                return BadRequest("Failed to register user.");
             }
-            return BadRequest("Failed to register user.");
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPost("login")]
@@ -49,25 +56,25 @@ namespace finWise.Controllers
             var user = await _userInterface.LoginAsync(userId, password);
             if (user != null)
             {
-                var token = Generate(user);
+                var token = GenerateToken(user);
                 return Ok(new { Token = token });
             }
 
             return BadRequest("ID or password is not correct");
         }
 
-        private string Generate(UserDetails userToken)
+        private string GenerateToken(UserDetails userToken)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var claims = new[]
             {
-        new Claim(ClaimTypes.Name, userToken.UserName),
-        new Claim(ClaimTypes.Email, userToken.UserEmail),
-        new Claim(ClaimTypes.Role, userToken.Role),  // Ensure Role is added
-        new Claim("age", userToken.Age.ToString(), ClaimValueTypes.Integer)
-    };
+                new Claim(ClaimTypes.Name, userToken.UserName),
+                new Claim(ClaimTypes.Email, userToken.UserEmail),
+                new Claim(ClaimTypes.Role, userToken.Role),  // Ensure Role is added
+                new Claim("age", userToken.Age.ToString(), ClaimValueTypes.Integer)
+            };
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["Jwt:Issuer"],
@@ -79,26 +86,19 @@ namespace finWise.Controllers
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-
-
-        private UserDetails Authenticate(string userId, string password)
-        {
-            var checkUser = _userInterface.LoginAsync(userId, password);
-            if (checkUser != null)
-            {
-                return checkUser.Result;
-            }
-            return null;
-        }
-
         [Authorize(Roles = "User")]
         [HttpDelete("deleteAccount")]
         public async Task<IActionResult> Delete(string emailId)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var deleted = await _userInterface.DeleteAsync(emailId);
             if (deleted)
             {
-                return Ok("User deleted successfully.");
+                return Ok("Account deleted successfully.");
             }
             return NotFound("User not found.");
         }
@@ -127,13 +127,6 @@ namespace finWise.Controllers
             {
                 return BadRequest(ModelState);
             }
-            var currentUser = HttpContext.User;
-            var currentUserId = currentUser.FindFirst(ClaimTypes.Name)?.Value;
-
-            if (currentUserId != userId && !currentUser.IsInRole("Admin"))
-            {
-                return Forbid();
-            }
 
             var user = await _userInterface.GetProfileAsync(userId);
             if (user != null)
@@ -143,6 +136,5 @@ namespace finWise.Controllers
 
             return NotFound("User not found.");
         }
-
     }
 }

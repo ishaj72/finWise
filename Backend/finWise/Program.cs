@@ -32,6 +32,7 @@ builder.Services.AddDbContext<finWiseDbContext>(options =>
 
 builder.Services.AddScoped<IUserInterface, UserRepository>();
 builder.Services.AddScoped<IEmailSenderInterface, EmailSenderRepository>();
+builder.Services.AddScoped<ITransactionInterface, TransactionRepository>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>

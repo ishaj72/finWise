@@ -1,19 +1,30 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace finWise.Model
 {
     public class TransactionDetails
     {
-        [Required]
+        [Key]
         public string TransactionId { get; set; }
+
         [Required]
-        public string TransactionType { get; set; } // groceries, utilties
+        public string TransactionType { get; set; } // groceries, utilities
+
         [Required]
-        public decimal Amount { get; set; }
+        public double Amount { get; set; }
+
         [Required]
         [DataType(DataType.Date)]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
+
         [Required]
         public string Description { get; set; } // details regarding transaction
+
+        [Required]
+        public string UserId { get; set; }
+
+        [ForeignKey("UserId")]
+        public UserDetails User { get; set; }
     }
 }
