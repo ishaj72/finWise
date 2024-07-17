@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\MyApps\\finWise\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\model\\transactiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\model\\transactiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\model\\finwisedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\model\\finwisedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\interfaces\\itransactioninterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 235,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,42 +46,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "finWise\\Repositories\\UserRepository.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "finWise\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA0wE0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T17:49:41.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "finWise\\Repositories\\TransactionRepository.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\TransactionRepository.cs",
-              "RelativeToolTip": "finWise\\Repositories\\TransactionRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA0wEIAAABiAAAA",
+              "Title": "TransactionDetails.cs",
+              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\TransactionDetails.cs",
+              "RelativeDocumentMoniker": "finWise\\Model\\TransactionDetails.cs",
+              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\TransactionDetails.cs",
+              "RelativeToolTip": "finWise\\Model\\TransactionDetails.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T16:59:20.615Z",
+              "WhenOpened": "2024-07-17T09:42:22.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "finWiseDbContext.cs",
+              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\finWiseDbContext.cs",
+              "RelativeDocumentMoniker": "finWise\\Model\\finWiseDbContext.cs",
+              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\finWiseDbContext.cs",
+              "RelativeToolTip": "finWise\\Model\\finWiseDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:40:55.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "finWise\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "finWise\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:49:41.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "finWise\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "finWise\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwEUAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:59:20.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ITransactionInterface.cs",
               "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\ITransactionInterface.cs",
               "RelativeDocumentMoniker": "finWise\\Interfaces\\ITransactionInterface.cs",
               "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\ITransactionInterface.cs",
               "RelativeToolTip": "finWise\\Interfaces\\ITransactionInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T16:59:19.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T16:59:19.328Z"
             },
             {
               "$type": "Document",
@@ -83,14 +113,13 @@
               "RelativeDocumentMoniker": "finWise\\Controllers\\TransactionController.cs",
               "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Controllers\\TransactionController.cs",
               "RelativeToolTip": "finWise\\Controllers\\TransactionController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAywGMAAAAJAAAA",
+              "ViewState": "AQIAABUAAACAZmZmZmYewGcAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T16:58:49.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T16:58:49.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "finWise\\Controllers\\UserController.cs",
@@ -98,8 +127,7 @@
               "RelativeToolTip": "finWise\\Controllers\\UserController.cs",
               "ViewState": "AQIAAGQAAAAAAAAAAAAowGYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T17:00:16.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T17:00:16.402Z"
             }
           ]
         },
@@ -110,6 +138,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
