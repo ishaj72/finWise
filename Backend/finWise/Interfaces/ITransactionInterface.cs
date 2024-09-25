@@ -10,6 +10,6 @@ namespace finWise.Interfaces
         Task<TransactionDetails> GetTransactionByIdAsync(string transactionId);
         Task<IEnumerable<TransactionDetails>> GetTransactionsByUserIdAsync(string userId);
 
-        Task<TransactionDetails> UpdateTransactionAsync(string transactionId, TransactionDetails updatedTransaction);
+        // Task<TransactionDetails> UpdateTransactionAsync(string transactionId, TransactionDetails updatedTransaction);
     }
 }

@@ -18,6 +18,9 @@ namespace finWise.Model
 
         [Required]
         public string EndDate { get; set; }
+
+        [Required]
+        public double BudgetAmount { get; set; }
         [Required]
         public string UserId { get; set; }
         [ForeignKey("UserId")]

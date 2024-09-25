@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\MyApps\\finWise\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MyApps\\finWise\\Backend\\finWise\\Migrations\\20240923180452_addingbudgettableforeignkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finWise\\Migrations\\20240923180452_addingbudgettableforeignkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\model\\budgetdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,42 +15,18 @@
       "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\interfaces\\ibudgetinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\model\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\model\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\model\\transactiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\model\\transactiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MyApps\\finWise\\Backend\\finWise\\Migrations\\20240923175847_addingbudgettable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finWise\\Migrations\\20240923175847_addingbudgettable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|e:\\myapps\\finwise\\backend\\finwise\\interfaces\\itransactioninterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39612959-D59A-4778-B339-932D167CBA99}|finWise\\finWise.csproj|solutionrelative:finwise\\interfaces\\itransactioninterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 266,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 22,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,93 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserDetails.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\UserDetails.cs",
-              "RelativeDocumentMoniker": "finWise\\Model\\UserDetails.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\UserDetails.cs",
-              "RelativeToolTip": "finWise\\Model\\UserDetails.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA0wCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:03:45.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TransactionDetails.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\TransactionDetails.cs",
-              "RelativeDocumentMoniker": "finWise\\Model\\TransactionDetails.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\TransactionDetails.cs",
-              "RelativeToolTip": "finWise\\Model\\TransactionDetails.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAzwBAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:52:35.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "finWise\\Repositories\\TransactionRepository.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\TransactionRepository.cs",
-              "RelativeToolTip": "finWise\\Repositories\\TransactionRepository.cs",
-              "ViewState": "AQIAABAAAABAMzMzMzMnwDAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:58:59.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "finWise\\Controllers\\TransactionController.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "finWise\\Controllers\\TransactionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:41:51.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BudgetRepository.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\BudgetRepository.cs",
-              "RelativeDocumentMoniker": "finWise\\Repositories\\BudgetRepository.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\BudgetRepository.cs",
-              "RelativeToolTip": "finWise\\Repositories\\BudgetRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:06:11.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BudgetController.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Controllers\\BudgetController.cs",
-              "RelativeDocumentMoniker": "finWise\\Controllers\\BudgetController.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Controllers\\BudgetController.cs",
-              "RelativeToolTip": "finWise\\Controllers\\BudgetController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:05:48.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBudgetInterface.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\IBudgetInterface.cs",
-              "RelativeDocumentMoniker": "finWise\\Interfaces\\IBudgetInterface.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\IBudgetInterface.cs",
-              "RelativeToolTip": "finWise\\Interfaces\\IBudgetInterface.cs",
+              "Title": "ITransactionInterface.cs",
+              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\ITransactionInterface.cs",
+              "RelativeDocumentMoniker": "finWise\\Interfaces\\ITransactionInterface.cs",
+              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\ITransactionInterface.cs",
+              "RelativeToolTip": "finWise\\Interfaces\\ITransactionInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:05:13.926Z",
+              "WhenOpened": "2024-09-25T18:04:34.695Z",
               "EditorCaption": ""
             },
             {
@@ -155,47 +53,43 @@
               "RelativeDocumentMoniker": "finWise\\Model\\BudgetDetails.cs",
               "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Model\\BudgetDetails.cs",
               "RelativeToolTip": "finWise\\Model\\BudgetDetails.cs",
-              "ViewState": "AQIAAA4AAAAwMzMzM7NAwBUAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:04:46.217Z",
+              "WhenOpened": "2024-09-25T17:43:53.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BudgetRepository.cs",
+              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\BudgetRepository.cs",
+              "RelativeDocumentMoniker": "finWise\\Repositories\\BudgetRepository.cs",
+              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Repositories\\BudgetRepository.cs",
+              "RelativeToolTip": "finWise\\Repositories\\BudgetRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:06:11.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBudgetInterface.cs",
+              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\IBudgetInterface.cs",
+              "RelativeDocumentMoniker": "finWise\\Interfaces\\IBudgetInterface.cs",
+              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Interfaces\\IBudgetInterface.cs",
+              "RelativeToolTip": "finWise\\Interfaces\\IBudgetInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:05:13.926Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 254,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 451,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240923180452_addingbudgettableforeignkey.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Migrations\\20240923180452_addingbudgettableforeignkey.cs",
-              "RelativeDocumentMoniker": "finWise\\Migrations\\20240923180452_addingbudgettableforeignkey.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Migrations\\20240923180452_addingbudgettableforeignkey.cs",
-              "RelativeToolTip": "finWise\\Migrations\\20240923180452_addingbudgettableforeignkey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:04:53.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240923175847_addingbudgettable.cs",
-              "DocumentMoniker": "E:\\MyApps\\finWise\\Backend\\finWise\\Migrations\\20240923175847_addingbudgettable.cs",
-              "RelativeDocumentMoniker": "finWise\\Migrations\\20240923175847_addingbudgettable.cs",
-              "ToolTip": "E:\\MyApps\\finWise\\Backend\\finWise\\Migrations\\20240923175847_addingbudgettable.cs",
-              "RelativeToolTip": "finWise\\Migrations\\20240923175847_addingbudgettable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:58:47.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"

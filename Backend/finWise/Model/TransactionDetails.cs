@@ -19,7 +19,7 @@ namespace finWise.Model
         public DateTime Date { get; set; }
 
         [Required]
-        public string Description { get; set; } // details regarding transaction
+        public string Category { get; set; } // details regarding transaction
 
         [Required]
         public string UserId { get; set; }

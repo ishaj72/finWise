@@ -99,29 +99,29 @@ namespace finWise.Controllers
             }
         }
 
-        [Authorize(Roles = "User")]
-        [HttpPut("UpdateTransaction")]
-        public async Task<IActionResult> UpdateTransactionAsync(string transactionId, [FromBody] TransactionDetails updatedTransaction)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //[Authorize(Roles = "User")]
+        //[HttpPut("UpdateTransaction")]
+        //public async Task<IActionResult> UpdateTransactionAsync(string transactionId, [FromBody] TransactionDetails updatedTransaction)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            try
-            {
-                var updatedTransact = await _transactInterface.UpdateTransactionAsync(transactionId, updatedTransaction);
-                if (updatedTransact != null)
-                {
-                    return Ok(new { Message = "Transaction updated successfully", Transaction = updatedTransact });
-                }
-                return NotFound(new { Message = "Transaction not found" });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { Message = ex.Message });
-            }
-        }
+        //    try
+        //    {
+        //        var updatedTransact = await _transactInterface.UpdateTransactionAsync(transactionId, updatedTransaction);
+        //        if (updatedTransact != null)
+        //        {
+        //            return Ok(new { Message = "Transaction updated successfully", Transaction = updatedTransact });
+        //        }
+        //        return NotFound(new { Message = "Transaction not found" });
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest(new { Message = ex.Message });
+        //    }
+        //}
 
     }
 }

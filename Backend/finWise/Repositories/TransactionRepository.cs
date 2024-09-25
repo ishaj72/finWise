@@ -1,6 +1,5 @@
 ﻿using finWise.Interfaces;
 using finWise.Model;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace finWise.Repositories
@@ -13,7 +12,6 @@ namespace finWise.Repositories
         {
             _context = context;
         }
-
         private async Task<string> GenerateTransactionIdAsync()
         {
             var lastTransaction = await _context.Transactions
@@ -30,7 +28,6 @@ namespace finWise.Repositories
 
             return $"TRANSACT{newTransactionIdNumber:D6}";
         }
-
         public async Task<TransactionDetails> NewTransactionAsync(TransactionDetails transaction)
         {
             transaction.TransactionId = await GenerateTransactionIdAsync();
@@ -67,20 +64,19 @@ namespace finWise.Repositories
         {
             return await _context.Transactions.Where(t => t.UserId == userId).Include(t => t.User).ToListAsync();
         }
-        public async Task<TransactionDetails> UpdateTransactionAsync(string transactionId, [FromQuery] TransactionDetails updatedTransaction)
-        {
-            var existTransact = await _context.Transactions.SingleOrDefaultAsync(t => t.TransactionId == transactionId);
-            if (existTransact != null)
-            {
-                existTransact.TransactionType = updatedTransaction.TransactionType;
-                existTransact.Amount = updatedTransaction.Amount;
-                existTransact.Date = updatedTransaction.Date;
-                existTransact.Description = updatedTransaction.Description;
-                await _context.SaveChangesAsync();
+        //public async Task<TransactionDetails> UpdateTransactionAsync(string transactionId, [FromQuery] TransactionDetails updatedTransaction)
+        //{
+        //    var existTransact = await _context.Transactions.SingleOrDefaultAsync(t => t.TransactionId == transactionId);
+        //    if (existTransact != null)
+        //    {
+        //        existTransact.TransactionType = updatedTransaction.TransactionType;
+        //        existTransact.Amount = updatedTransaction.Amount;
+        //        existTransact.Date = updatedTransaction.Date;
+        //        await _context.SaveChangesAsync();
 
-                return existTransact;
-            }
-            return null;
-        }
+        //        return existTransact;
+        //    }
+        //    return null;
+        //}
     }
 }
